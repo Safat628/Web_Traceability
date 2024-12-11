@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                
+                <img src="assets/Screenshot_2.png" alt="Logo" class="logo-img">
+              </a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Traceability ▼</a>
+              <div class="dropdown-content">
+                <a href="#" data-option="1">AgTrace</a>
+                <a href="#" data-option="2">LeatherTrace</a>
+              </div>
+            </li>
+            <li><a href="contact.html">Let's Talk</a></li>
+          </ul>
+          
+          <button id="darkModeToggle">🌙</button>
+        </nav>
+      </header>
+    <section id="contact-us">
+        <h1>Get in Touch</h1>
+        <p>We offer business consulting and personalized support across multiple locations. Fill in the form below to reach us.</p>
+      
+        <!-- Contact Form -->
+        <form id="contact-form" class="contact-form">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="first-name" placeholder="Your first name" required>
+      
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" name="last-name" placeholder="Your last name" required>
+      
+          <label for="phone">Your Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+      
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+      
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+      
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Your message" required></textarea>
+      
+          <button type="submit">Send Message</button>
+        </form>
+      
+        <div class="locations">
+          <h2>Our Working Locations</h2>
+          <p>Discover where we operate and how we can serve you. Our locations offer personalized support.</p>
+          
+          <!-- Location 1 -->
+          <div class="location">
+            <h3>United States</h3>
+            <p>456 Innovation Park, Suite 101, San Francisco, CA 94107</p>
+            <p>Email: <a href="mailto:contact@zealconsult.com">contact@zealconsult.com</a></p>
+            <p>Phone: <a href="tel:+14155556789">+1 (415) 555-6789</a></p>
+          </div>
+      
+          <!-- Location 2 -->
+          <div class="location">
+            <h3>United Kingdom</h3>
+            <p>78 Business Road, Floor 2, London, SW1A 1AA</p>
+            <p>Email: <a href="mailto:contact@zealconsult.com">contact@zealconsult.com</a></p>
+            <p>Phone: <a href="tel:+442079461234">+44 (20) 7946-1234</a></p>
+          </div>
+      
+          <!-- Location 3 -->
+          <div class="location">
+            <h3>Australia</h3>
+            <p>123 Enterprise Drive, Level 3, Sydney, NSW 2000</p>
+            <p>Email: <a href="mailto:contact@zealconsult.com">contact@zealconsult.com</a></p>
+            <p>Phone: <a href="tel:+61298765432">+61 (2) 9876-5432</a></p>
+          </div>
+        </div>
+      </section>
+    
+</body>
+
+<footer>
+  <div class="footer-container">
+      <!-- Footer Links Section -->
+      <div class="footer-links">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Let's Talk</a></li>
+          </ul>
+      </div>
+
+      <!-- Subscribe Us Section -->
+      <div class="subscribe">
+          <h2>Subscribe Us</h2>
+          <div class="social-icons">
+              <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+      </div>
+  </div>
+
+  <p>&copy; 2024 All rights reserved.</p>
+  <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+</footer>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
